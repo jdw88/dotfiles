@@ -37,6 +37,7 @@ brew 'vault'
 brew 'wget'
 brew 'whois'
 brew 'zsh'
+brew 'telnet'
 
 cask 'iterm2'
 cask 'docker'
