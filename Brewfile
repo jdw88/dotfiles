@@ -1,45 +1,100 @@
-cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
-tap 'caskroom/fonts'
-
-brew 'asciinema'
-brew 'awscli'
-brew 'binutils'
-brew 'cfssl'
-brew 'coreutils'
-brew 'diffutils'
-brew 'findutils', args: ['with-default-names']
-brew 'fzf'
-brew 'gawk'
-brew 'gnu-sed', args: ['with-default-names']
-brew 'gnu-tar', args: ['with-default-names']
-brew 'gnu-which', args: ['with-default-names']
-brew 'grep', args: ['with-default-names']
-brew 'gzip', args: ['with-default-names']
-brew 'httpie'
-brew 'jq'
-brew 'kubernetes-cli'
-brew 'kubernetes-helm'
-brew 'mas'
-brew 'mtr'
-brew 'neovim'
-brew 'packer'
-brew 'python'
-brew 'python3'
-brew 'pyenv'
-brew 'pyenv-virtualenv'
-brew 'rbenv'
-brew 'stow'
-brew 'terraform'
-brew 'tmux'
-brew 'vault'
-brew 'wget'
-brew 'whois'
-brew 'zsh'
-brew 'telnet'
-
-cask 'iterm2'
-cask 'docker'
-cask 'viscosity'
-
+tap "bridgecrewio/checkov", "https://github.com/bridgecrewio/checkov"
+tap "caskroom/versions"
+tap "dkanejs/aws-session-manager-plugin"
+tap "exolnet/deprecated"
+tap "hashicorp/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "puppetlabs/puppet"
+tap "warrensbox/tap"
+brew "openssl@1.1"
+brew "readline"
+brew "sqlite"
+brew "xz"
+brew "asciinema", link: false
+brew "awk"
+brew "aws-iam-authenticator"
+brew "aws-shell"
+brew "awscli"
+brew "awscli@1"
+brew "binutils"
+brew "brew-php-switcher"
+brew "cfssl"
+brew "chamber"
+brew "checkov"
+brew "composer"
+brew "coreutils"
+brew "ctags"
+brew "libev"
+brew "openldap"
+brew "curl"
+brew "diffutils"
+brew "dive"
+brew "dos2unix"
+brew "findutils"
+brew "fzf"
+brew "gawk", link: false
+brew "git-lfs"
+brew "glib", link: false
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-which", args: ["with-default-names"]
+brew "goaccess"
+brew "grep"
+brew "groonga"
+brew "gzip"
+brew "helm"
+brew "httpie"
+brew "hugo"
+brew "iam-policy-json-to-terraform"
+brew "icu4c"
+brew "openjdk"
+brew "jmeter"
+brew "jq"
+brew "krb5"
+brew "kubernetes-cli"
+brew "libpq", link: true
+brew "mariadb"
+brew "mas"
+brew "mtr"
+brew "neovim"
+brew "node", link: false
+brew "node@12"
+brew "packer"
+brew "php", link: false
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "python@3.8"
+brew "ruby-build"
+brew "rbenv"
+brew "redis"
+brew "sshuttle"
+brew "stow"
+brew "telnet"
+brew "terraform", link: false
+brew "tfenv", link: false
+brew "tmate"
+brew "tmux"
+brew "tree"
+brew "vault"
+brew "watch"
+brew "wget"
+brew "whois", link: true
+brew "yarn"
+brew "zlib"
+brew "zsh"
+brew "dkanejs/aws-session-manager-plugin/aws-session-manager-plugin"
+brew "hashicorp/tap/terraform-ls"
+brew "warrensbox/tap/tfswitch"
+cask "atom"
+cask "background-music"
+cask "docker"
+cask "font-fira-code"
+cask "insomnia"
+cask "iterm2"
+cask "java"
+cask "java8"
+cask "pdk"
+cask "viscosity"
