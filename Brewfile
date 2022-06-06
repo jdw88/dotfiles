@@ -1,100 +1,52 @@
-tap "bridgecrewio/checkov", "https://github.com/bridgecrewio/checkov"
-tap "caskroom/versions"
-tap "dkanejs/aws-session-manager-plugin"
-tap "exolnet/deprecated"
-tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/core"
-tap "puppetlabs/puppet"
-tap "warrensbox/tap"
-brew "openssl@1.1"
-brew "readline"
-brew "sqlite"
-brew "xz"
-brew "asciinema", link: false
-brew "awk"
-brew "aws-iam-authenticator"
-brew "aws-shell"
-brew "awscli"
-brew "awscli@1"
-brew "binutils"
-brew "brew-php-switcher"
-brew "cfssl"
-brew "chamber"
+cask 'steam'cask 'steam'cask_args appdir: '/Applications'
+
+tap 'aws/tap'
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
+tap 'homebrew/cask-fonts'
+tap 'hashicorp/tap'
+tap 'warrensbox/tap'
+
+brew 'awscli'
+brew 'bat'
+brew 'ec2-instance-selector'
+brew 'git'
+brew 'fd'
+brew 'fzf'
+brew 'jq'
+brew 'kubernetes-cli'
+brew 'kubie'
+brew 'lua'
+brew 'mas'
+brew 'prettier'
+brew 'ripgrep'
+brew 'terraform'
+brew 'terraform-ls'
+brew 'tfswitch'
+brew 'zinit'
+brew 'zsh'
 brew "checkov"
-brew "composer"
-brew "coreutils"
-brew "ctags"
-brew "libev"
-brew "openldap"
-brew "curl"
-brew "diffutils"
-brew "dive"
-brew "dos2unix"
-brew "findutils"
-brew "fzf"
-brew "gawk", link: false
-brew "git-lfs"
-brew "glib", link: false
-brew "gnu-sed"
-brew "gnu-tar"
-brew "gnu-which", args: ["with-default-names"]
-brew "goaccess"
-brew "grep"
-brew "groonga"
-brew "gzip"
-brew "helm"
-brew "httpie"
 brew "hugo"
-brew "iam-policy-json-to-terraform"
-brew "icu4c"
-brew "openjdk"
-brew "jmeter"
-brew "jq"
-brew "krb5"
-brew "kubernetes-cli"
-brew "libpq", link: true
-brew "mariadb"
-brew "mas"
-brew "mtr"
-brew "neovim"
-brew "node", link: false
-brew "node@12"
-brew "packer"
-brew "php", link: false
-brew "pyenv"
-brew "pyenv-virtualenv"
-brew "python@3.8"
-brew "ruby-build"
-brew "rbenv"
-brew "redis"
-brew "sshuttle"
-brew "stow"
-brew "telnet"
-brew "terraform", link: false
-brew "tfenv", link: false
-brew "tmate"
-brew "tmux"
-brew "tree"
-brew "vault"
-brew "watch"
-brew "wget"
-brew "whois", link: true
-brew "yarn"
-brew "zlib"
-brew "zsh"
-brew "dkanejs/aws-session-manager-plugin/aws-session-manager-plugin"
-brew "hashicorp/tap/terraform-ls"
-brew "warrensbox/tap/tfswitch"
-cask "atom"
-cask "background-music"
-cask "docker"
-cask "font-fira-code"
-cask "insomnia"
+
+cask 'aerial'
+cask 'alfred'
+cask 'amazon-chime'
+cask 'discord'
+cask 'docker'
+cask 'font-fira-code-nerd-font'
+cask 'google-drive'
+cask 'kitty'
+cask 'rectangle'
+cask 'viscosity'
+cask 'zoom'
 cask "iterm2"
-cask "java"
-cask "java8"
-cask "pdk"
-cask "viscosity"
+cask 'steam'
+cask 'the-unarchiver'
+cask 'plex-media-server'
+
+mas '1Password', id: 1333542190
+mas '1Password for Safari', id: 1569813296
+mas 'GSE Smart IPTV', id: 1293083751
+mas 'Keynote', id: 409183694
+mas 'Slack', id: 803453959 
