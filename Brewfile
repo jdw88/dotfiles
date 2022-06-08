@@ -44,6 +44,7 @@ cask "iterm2"
 cask 'steam'
 cask 'the-unarchiver'
 cask 'plex-media-server'
+cask 'miro'
 
 mas '1Password', id: 1333542190
 mas '1Password for Safari', id: 1569813296
