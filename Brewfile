@@ -1,8 +1,7 @@
-cask 'steam'cask 'steam'cask_args appdir: '/Applications'
+cask_args appdir: '/Applications'
 
 tap 'aws/tap'
 tap 'homebrew/bundle'
-tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'hashicorp/tap'
@@ -26,8 +25,9 @@ brew 'terraform-ls'
 brew 'tfswitch'
 brew 'zinit'
 brew 'zsh'
-brew "checkov"
-brew "hugo"
+brew 'checkov'
+brew 'hugo'
+brew 'aws-sam-cli'
 
 cask 'aerial'
 cask 'alfred'
@@ -41,13 +41,14 @@ cask 'rectangle'
 cask 'viscosity'
 cask 'zoom'
 cask "iterm2"
-cask 'steam'
 cask 'the-unarchiver'
 cask 'plex-media-server'
 cask 'miro'
+cask 'visual-studio-code'
+cask 'google-chrome'
+cask 'firefox'
 
 mas '1Password', id: 1333542190
 mas '1Password for Safari', id: 1569813296
-mas 'GSE Smart IPTV', id: 1293083751
 mas 'Keynote', id: 409183694
 mas 'Slack', id: 803453959 
